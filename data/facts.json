@@ -1,0 +1,173 @@
+[
+  {
+    "text": "Sathish's name is Sathish.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish is a final-year AI student with a strong interest in building AI models integrated with web applications.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish is currently learning how to build Retrieval-Augmented Generation (RAG) systems, and is also learning Spring Boot.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish's favorite programming language is Java.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish's native place is Madurai.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish is studying at Velammal Engineering College in Chennai.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish is a college student focused on AI and Machine Learning.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish is building technical skills especially in Java, Spring Boot, Python, Machine Learning, SQL, and backend development.",
+    "access": "public"
+  },
+  {
+    "text": "Java is one of Sathish's current priorities. He has been learning OOP concepts, inheritance, constructors, static/non-static behavior, and now Spring Boot.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish is interested in ML/DS from basic to advanced, including preprocessing, supervised and unsupervised learning, metrics, NLP, and model training.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish likes actually building things, not just learning theory. Projects discussed include a vehicle rental API, a data-preprocessing platform, a job recommendation system, a server health monitor, and ML applications.",
+    "access": "public"
+  },
+  {
+    "text": "Placements are important to Sathish. He has been preparing for placement assessments and specifically wants to strengthen his ML/DS and communication skills.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish finds communication and explanation to be a bigger challenge than technical knowledge, especially during placement rounds. He has been practicing English speaking to improve this.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish is interested in becoming someone who can build both ML models and scalable applications, rather than focusing on only one side.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish enjoys playing online chess as one of his interests.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish enjoys listening to music.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish's email is sathishkumar290705@gmail.com.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish's LinkedIn profile is https://www.linkedin.com/in/sathishkumar290207/.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish is open to work in ML (Machine Learning) and Fullstack development roles.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish has one sister, named Deepika.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish's mother's name is Snege.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish's father's name is Rajkumar, and he works as a shopkeeper.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish's nickname is Baz.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish loves travelling and being alone with his thoughts.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish is currently upskilling in Java and ML core concepts.",
+    "access": "private",
+    "allowed_names": ["29-07-05"]
+  },
+  {
+    "text": "Sathish is currently working on projects called Process_AI and Money_management.",
+    "access": "private",
+    "allowed_names": ["29-07-05"]
+  },
+  {
+    "text": "Sathish had one crush, who is his childhood friend.",
+    "access": "private",
+    "allowed_names": ["@Onlyme"]
+  },
+  {
+    "text": "Sathish's crush's name is Ramya.",
+    "access": "private",
+    "allowed_names": ["@Onlyme"]
+  },
+  {
+    "text": "Sathish's phone number is private information.",
+    "access": "private",
+    "allowed_names": ["29-07-2005"]
+  },
+  {
+    "text": "Sathish's favorite heroines are Samantha and Sai Pallavi, and his current favorite is Sadie Sink.",
+    "access": "private",
+    "allowed_names": ["@Baz2907"]
+  },
+  {
+    "text": "Sathish's favorite heroes are Surya and Ajith.",
+    "access": "private",
+    "allowed_names": ["@Baz2907"]
+  },
+  {
+    "text": "Sathish's favorite places are Kerala, Japan, and Switzerland.",
+    "access": "private",
+    "allowed_names": ["@Baz2907"]
+  },
+  {
+    "text": "Sathish is in a relationship. His girlfriend's name is Brindha.",
+    "access": "private",
+    "allowed_names": ["@Baz2907"]
+  },
+  {
+    "text": "Sathish's favorite movie is Por Thozhil.",
+    "access": "private",
+    "allowed_names": ["@Baz2907"]
+  },
+  {
+    "text": "Sathish's favorite god is Muruga.",
+    "access": "private",
+    "allowed_names": ["@Baz2907"]
+  },
+  {
+    "text": "Sathish doesn't have one specific favorite food \u2014 he loves food in general.",
+    "access": "private",
+    "allowed_names": ["@Baz2907"]
+  },
+  {
+    "text": "Sathish cooks well in South Indian cuisine.",
+    "access": "private",
+    "allowed_names": ["@Baz2907"]
+  },
+  {
+    "text": "Sathish has other passion dreams beyond his career, like becoming a chef, an artist, or an archaeologist.",
+    "access": "private",
+    "allowed_names": ["@Baz2907"]
+  },
+  {
+    "text": "Sathish's favorite song is Kadhaipoma from Oh My Kadavule.",
+    "access": "private",
+    "allowed_names": ["@Baz2907"]
+  }
+]
