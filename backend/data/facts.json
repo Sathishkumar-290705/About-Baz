@@ -98,76 +98,76 @@
   {
     "text": "Sathish is currently upskilling in Java and ML core concepts.",
     "access": "private",
-    "allowed_names": ["29-07-05"]
+    "tier": "tier_1"
   },
   {
     "text": "Sathish is currently working on projects called Process_AI and Money_management.",
     "access": "private",
-    "allowed_names": ["29-07-05"]
+    "tier": "tier_1"
   },
   {
     "text": "Sathish had one crush, who is his childhood friend.",
     "access": "private",
-    "allowed_names": ["@Onlyme"]
+    "tier": "tier_2"
   },
   {
     "text": "Sathish's crush's name is Ramya.",
     "access": "private",
-    "allowed_names": ["@Onlyme"]
+    "tier": "tier_2"
   },
   {
     "text": "Sathish's phone number is private information.",
     "access": "private",
-    "allowed_names": ["29-07-2005"]
+    "tier": "tier_1"
   },
   {
     "text": "Sathish's favorite heroines are Samantha and Sai Pallavi, and his current favorite is Sadie Sink.",
     "access": "private",
-    "allowed_names": ["@Baz2907"]
+    "tier": "tier_3"
   },
   {
     "text": "Sathish's favorite heroes are Surya and Ajith.",
     "access": "private",
-    "allowed_names": ["@Baz2907"]
+    "tier": "tier_3"
   },
   {
     "text": "Sathish's favorite places are Kerala, Japan, and Switzerland.",
     "access": "private",
-    "allowed_names": ["@Baz2907"]
+    "tier": "tier_3"
   },
   {
     "text": "Sathish is in a relationship. His girlfriend's name is Brindha.",
     "access": "private",
-    "allowed_names": ["@Baz2907"]
+    "tier": "tier_3"
   },
   {
     "text": "Sathish's favorite movie is Por Thozhil.",
     "access": "private",
-    "allowed_names": ["@Baz2907"]
+    "tier": "tier_3"
   },
   {
     "text": "Sathish's favorite god is Muruga.",
     "access": "private",
-    "allowed_names": ["@Baz2907"]
+    "tier": "tier_3"
   },
   {
     "text": "Sathish doesn't have one specific favorite food \u2014 he loves food in general.",
     "access": "private",
-    "allowed_names": ["@Baz2907"]
+    "tier": "tier_3"
   },
   {
     "text": "Sathish cooks well in South Indian cuisine.",
     "access": "private",
-    "allowed_names": ["@Baz2907"]
+    "tier": "tier_3"
   },
   {
     "text": "Sathish has other passion dreams beyond his career, like becoming a chef, an artist, or an archaeologist.",
     "access": "private",
-    "allowed_names": ["@Baz2907"]
+    "tier": "tier_3"
   },
   {
     "text": "Sathish's favorite song is Kadhaipoma from Oh My Kadavule.",
     "access": "private",
-    "allowed_names": ["@Baz2907"]
+    "tier": "tier_3"
   }
 ]
