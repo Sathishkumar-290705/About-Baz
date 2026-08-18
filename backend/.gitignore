@@ -3,6 +3,7 @@ chroma_db/
 __pycache__/
 *.pyc
 .pytest_cache/
-baz_env/
-.baz_env/
+bazz_env/
+.bazz_env/
 *.egg-info/
+

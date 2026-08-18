@@ -2,7 +2,7 @@ from app.retrieval import retrieve_facts
 
 
 results = retrieve_facts(
-    "What is Sathish's favorite programming language?"
+    "who is sathish crush?"
 )
 
 for result in results:
