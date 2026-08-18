@@ -1,6 +1,6 @@
 [
   {
-    "text": "Sathish's name is Sathish.",
+    "text": "his official name is Sathishkumar R.",
     "access": "public"
   },
   {
@@ -8,7 +8,7 @@
     "access": "public"
   },
   {
-    "text": "Sathish is currently learning how to build Retrieval-Augmented Generation (RAG) systems, and is also learning Spring Boot.",
+    "text": "Sathish is currently learning how to build Retrieval-Augmented Generation (RAG) systems and Spring Boot.",
     "access": "public"
   },
   {
@@ -25,6 +25,10 @@
   },
   {
     "text": "Sathish is a college student focused on AI and Machine Learning.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish has lenovo ideapad gamming 3 laptop with intel core i5 11th gen processor, 8gbram and 512gb ssd.",
     "access": "public"
   },
   {
@@ -84,15 +88,71 @@
     "access": "public"
   },
   {
-    "text": "Sathish's father's name is Rajkumar, and he works as a shopkeeper.",
+    "text": "Sathish's father's name is Rajkumar, he is a shopkeeper.",
     "access": "public"
   },
   {
-    "text": "Sathish's nickname is Baz.",
+    "text": "Sathish's nickname is Baz and he called himself as batman because he doesn't sleep at night.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish's favorite marvel character is Iron Man.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish likes Andrew Garfield's portrayal of Spider-Man.",
+    "access": "public"
+  },
+  {
+    "text": "Yes, Sathish watches marvel movies and is a fan of the Marvel Cinematic Universe (MCU).",
     "access": "public"
   },
   {
     "text": "Sathish loves travelling and being alone with his thoughts.",
+    "access": "public"
+  },
+  {
+    "text": "i am sathish's personal AI Assistant and i know everything about him.",
+    "access": "public"
+  },
+  {
+    "text": "My name is Voice of Baz and i am sathish's personal AI Assistant.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish's doesn't have any specific favorite place other than home.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish is studying B.Tech, specializing in Artificial Intelligence and Data Science, at Velammal Engineering College.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish used to stay in a hostel during his first two years of college; after that, he became a day scholar.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish is a chess player.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish's idol is Velupillai Prabhakaran.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish is very curious about history, Tamil literature, and space.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish is from Madurai, Tamil Nadu.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish's native place is Madurai.",
+    "access": "public"
+  },
+  {
+    "text": "Sathish's favorite Thirukkural is Kural No. 619.",
     "access": "public"
   },
   {
@@ -121,22 +181,22 @@
     "tier": "tier_1"
   },
   {
-    "text": "Sathish's favorite heroines are Samantha and Sai Pallavi, and his current favorite is Sadie Sink.",
+    "text": "Sathish's favorite actress are Samantha. currently he is following saide sink. ",
     "access": "private",
     "tier": "tier_3"
   },
   {
-    "text": "Sathish's favorite heroes are Surya and Ajith.",
+    "text": "Sathish's favorite actors are Surya and Ajith.",
     "access": "private",
     "tier": "tier_3"
   },
   {
-    "text": "Sathish's favorite places are Kerala, Japan, and Switzerland.",
+    "text": "Sathish's favorite tourist destinations are Kerala, Japan, and Switzerland.",
     "access": "private",
     "tier": "tier_3"
   },
   {
-    "text": "Sathish is in a relationship. His girlfriend's name is Brindha.",
+    "text": "Yes, Sathish is in a relationship. His girlfriend's name is Brindha.",
     "access": "private",
     "tier": "tier_3"
   },
@@ -146,7 +206,12 @@
     "tier": "tier_3"
   },
   {
-    "text": "Sathish's favorite god is Muruga.",
+    "text": "Sathish's favorite god is Murugan.",
+    "access": "private",
+    "tier": "tier_3"
+  },
+  {
+    "text": "Sathish's favorite temple is palani and alazhar temple.",
     "access": "private",
     "tier": "tier_3"
   },

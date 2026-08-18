@@ -24,6 +24,12 @@ class Settings(BaseSettings):
 
     # --- Embeddings ---
     embedding_model: str = "all-MiniLM-L6-v2"
+    
+    # --- Password tiers ---
+    tier_1_password: str
+    tier_2_password: str
+    tier_3_password: str
+    tier_4_password: str
 
     # --- Retrieval ---
     # how many chunks to pull back per query before access-filtering
@@ -32,7 +38,6 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(
         env_file=str(BACKEND_ROOT / ".env"),
         env_file_encoding="utf-8",
-        
     )
 
     @property
