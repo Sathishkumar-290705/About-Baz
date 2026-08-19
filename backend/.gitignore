@@ -7,3 +7,4 @@ bazz_env/
 .bazz_env/
 *.egg-info/
 
+data/facts.json
