@@ -29,7 +29,6 @@ class Settings(BaseSettings):
     tier_1_password: str
     tier_2_password: str
     tier_3_password: str
-    tier_4_password: str
 
     # --- Retrieval ---
     # how many chunks to pull back per query before access-filtering
