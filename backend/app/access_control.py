@@ -38,7 +38,6 @@ def check_access(
         "tier_1": settings.tier_1_password,
         "tier_2": settings.tier_2_password,
         "tier_3": settings.tier_3_password,
-        "tier_4": settings.tier_4_password,
     }
 
     expected_password = tier_passwords.get(tier)
