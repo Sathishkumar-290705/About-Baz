@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MessageCircle, Sparkles } from "lucide-react";
+import { MessageCircle, Moon, MoonIcon, Sparkles } from "lucide-react";
 import ChatWidget from "./components/ChatWidget";
 import "./App.css";
 
@@ -10,20 +10,20 @@ function App() {
     <main className="app">
       <section className="hero">
         <div className="hero-badge">
-          <Sparkles size={15} />
-          Personal RAG Assistant
+          <MoonIcon size={15} />
+          soul of sathish
         </div>
 
         <h1>
-          Get to know <span>Baz.</span>
+          Get to know <span>Sathish..</span>
         </h1>
 
         <p>
-          Ask questions about Sathish's skills, interests, education,
-          projects, and more.
+          Ask me anything about Sathish — his skills, interests, education,
+          projects, and pretty much everything else you want to know.
         </p>
 
-        <button className="hero-button" onClick={() => setChatOpen(true)}>
+        <button type="button" className="hero-button" onClick={() => setChatOpen(true)}>
           <MessageCircle size={18} />
           Start chatting
         </button>
@@ -33,6 +33,7 @@ function App() {
 
       {!chatOpen && (
         <button
+          type="button"
           className="floating-chat-button"
           onClick={() => setChatOpen(true)}
           aria-label="Open chat"

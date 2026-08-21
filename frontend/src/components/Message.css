@@ -1,11 +1,12 @@
 .message-bubble {
-  max-width: 78%;
+  min-width: 0;
+  max-width: min(78%, 34rem);
   padding: 11px 13px;
   border-radius: 16px;
   font-size: 13.5px;
   line-height: 1.55;
   white-space: pre-wrap;
-  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .assistant-bubble {
@@ -17,7 +18,7 @@
 .user-bubble {
   border-radius: 16px 4px 16px 16px;
   color: white;
-  background: #5b5ce2;
+  background: #21736b;
 }
 
 .error-bubble {
