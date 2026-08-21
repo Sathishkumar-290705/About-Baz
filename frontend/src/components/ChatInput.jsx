@@ -30,6 +30,7 @@ function ChatInput({ onSend, disabled }) {
           aria-label="Message"
         />
         <button
+          type="button"
           onClick={submit}
           disabled={disabled || !value.trim()}
           aria-label="Send message"

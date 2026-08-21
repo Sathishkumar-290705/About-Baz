@@ -1,11 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import {
   Bot,
-  ChevronDown,
   LockKeyhole,
   RotateCcw,
-  Send,
-  User,
   X,
 } from "lucide-react";
 import { sendMessage } from "../services/api";
@@ -17,7 +14,7 @@ import "./ChatWidget.css";
 const initialMessage = {
   id: 1,
   role: "assistant",
-  text: "Hi! I'm About Baz. Ask me anything about Sathish.",
+  text: "Hi! I'm About Sathish. Ask me anything about him.",
 };
 
 function ChatWidget({ open, onClose }) {
@@ -92,23 +89,23 @@ function ChatWidget({ open, onClose }) {
   };
 
   return (
-    <section className="chat-widget" aria-label="About Baz chatbot">
+    <section className="chat-widget" aria-label="About Sathish chatbot">
       <header className="chat-header">
         <div className="chat-title">
           <div className="bot-avatar">
             <Bot size={21} />
           </div>
           <div>
-            <strong>About Baz</strong>
+            <strong>About Sathish</strong>
             <span><i /> Online</span>
           </div>
         </div>
 
         <div className="header-actions">
-          <button onClick={resetChat} title="New chat" aria-label="New chat">
+          <button type="button" onClick={resetChat} title="New chat" aria-label="New chat">
             <RotateCcw size={17} />
           </button>
-          <button onClick={onClose} title="Close chat" aria-label="Close chat">
+          <button type="button" onClick={onClose} title="Close chat" aria-label="Close chat">
             <X size={19} />
           </button>
         </div>

@@ -1,6 +1,6 @@
 .input-area {
   flex: 0 0 auto;
-  padding: 10px 14px 3px;
+  padding: 10px 14px 4px;
   border-top: 1px solid #edf0f5;
 }
 
@@ -11,7 +11,7 @@
   gap: 8px;
   padding: 4px 5px 4px 13px;
   border: 1px solid #dfe4ec;
-  border-radius: 14px;
+  border-radius: 10px;
   background: #fff;
   transition: border-color .2s, box-shadow .2s;
 }
@@ -28,7 +28,7 @@
   outline: 0;
   color: #20283a;
   background: transparent;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .input-box input::placeholder {
@@ -36,14 +36,15 @@
 }
 
 .input-box button {
-  width: 36px;
-  height: 36px;
+  flex: 0 0 38px;
+  width: 38px;
+  height: 38px;
   display: grid;
   place-items: center;
   border: 0;
   border-radius: 10px;
   color: white;
-  background: #5b5ce2;
+  background: #21736b;
 }
 
 .input-box button:disabled {
@@ -57,4 +58,11 @@
   color: #a0a8b7;
   font-size: 9px;
   text-align: right;
+}
+
+@media (max-width: 600px) {
+  .input-area { padding: 10px 12px 4px; }
+  .input-box { min-height: 50px; }
+  .input-box input { font-size: 16px; }
+  .input-hint { display: none; }
 }
