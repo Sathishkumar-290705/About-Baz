@@ -1,11 +1,11 @@
 import chromadb
-from sentence_transformers import SentenceTransformer
+from google import genai
+from google.genai.types import EmbedContentConfig
 
 from app.config import settings
 
-
-# Load embedding model
-embedding_model = SentenceTransformer(settings.embedding_model)
+# Gemini client for embeddings
+embed_client = genai.Client(api_key=settings.gemini_api_key)
 
 # Connect to ChromaDB
 chroma_client = chromadb.PersistentClient(
@@ -25,7 +25,12 @@ def retrieve_facts(query: str, top_k: int | None = None):
     if top_k is None:
         top_k = settings.top_k
 
-    query_embedding = embedding_model.encode(query).tolist()
+    response = embed_client.models.embed_content(
+        model="gemini-embedding-001",
+        contents=query,
+        config=EmbedContentConfig(task_type="RETRIEVAL_QUERY"),
+    )
+    query_embedding = response.embeddings[0].values
 
     results = collection.query(
         query_embeddings=[query_embedding],
