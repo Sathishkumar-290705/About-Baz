@@ -1,25 +1,27 @@
-import json
+import json, os, base64
 import sys
 from pathlib import Path
 
 import chromadb
 from google import genai
 from google.genai.types import EmbedContentConfig
+from app.config import settings
 
 # Allow imports from backend/
 BACKEND_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BACKEND_ROOT))
 
-from app.config import settings
 
 client = genai.Client(api_key=settings.gemini_api_key)
 
-
 def load_facts():
-    """Load facts from facts.json."""
-    with open(settings.facts_json_path, "r", encoding="utf-8") as file:
-        return json.load(file)
-
+    b64 = os.environ.get("FACTS_JSON_B64")
+    if b64:
+        data = base64.b64decode(b64).decode("utf-8")
+        return json.loads(data)
+    # fallback to local file for local dev
+    with open(settings.facts_json_path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 def create_embeddings(facts):
     """Generate embeddings for all facts using Gemini's embedding API."""
