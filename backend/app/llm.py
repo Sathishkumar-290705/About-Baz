@@ -19,7 +19,7 @@ def generate_response(prompt: str) -> str:
             contents=prompt,
             config=genai.types.GenerateContentConfig(
                 temperature=0.2,
-                max_output_tokens=300
+                max_output_tokens=2048
             )
         )
     except errors.ServerError:
