@@ -15,10 +15,10 @@ sys.path.insert(0, str(BACKEND_ROOT))
 client = genai.Client(api_key=settings.gemini_api_key)
 
 def load_facts():
-    b64 = os.environ.get("FACTS_JSON_B64")
-    if b64:
-        data = base64.b64decode(b64).decode("utf-8")
-        return json.loads(data)
+    secret_path = Path("/etc/secrets/facts.json")
+    if secret_path.exists():
+        with open(secret_path, "r", encoding="utf-8") as f:
+            return json.load(f)
     # fallback to local file for local dev
     with open(settings.facts_json_path, "r", encoding="utf-8") as f:
         return json.load(f)
