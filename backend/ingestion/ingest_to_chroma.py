@@ -71,5 +71,3 @@ def ingest():
     print(f"Database: {settings.chroma_path_absolute}")
 
 
-if __name__ == "__main__":
-    ingest()
