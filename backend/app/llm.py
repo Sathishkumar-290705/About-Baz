@@ -16,7 +16,11 @@ def generate_response(prompt: str) -> str:
     try:
         response = client.models.generate_content(
             model=settings.gemini_model,
-            contents=prompt
+            contents=prompt,
+            config=genai.types.GenerateContentConfig(
+                temperature=0.2,
+                max_output_tokens=300
+            )
         )
     except errors.ServerError:
         return "I'm sorry, there was a server error while generating the response."
