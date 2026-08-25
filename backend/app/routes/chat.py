@@ -13,8 +13,9 @@ router = APIRouter()
 def chat(request: ChatRequest):
     print(request.question)
     print("Chat route called ")
+
     # 1. Retrieve relevant facts
-    results = retrieve_facts(request.question)
+    results = retrieve_facts(request.question , top_k=5)
     print(results)
     if not results:
         return ChatResponse(
@@ -24,13 +25,14 @@ def chat(request: ChatRequest):
 
     # 2. Check the most relevant fact first
     top_result = results[0]
-    # print("meta data ",top_result)
+  
+    print("meta data ",top_result)
     top_metadata = top_result["metadata"]
-
+    # print("type checking" , type(top_metadata))
     # 3. If the most relevant fact is private,
     #    authentication is required before revealing anything.
     if top_metadata.get("access") == "private":
-
+  
         if not check_access(top_metadata, request.password):
             return ChatResponse(
                 answer="This information is private. Please provide the required password.",
