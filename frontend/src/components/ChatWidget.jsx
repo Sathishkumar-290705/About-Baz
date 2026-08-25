@@ -145,7 +145,7 @@ function ChatWidget({ open, onClose }) {
       </div>
 
       <ChatInput disabled={loading || Boolean(passwordPrompt)} onSend={handleSend} />
-
+        
       <footer className="chat-footer">
         <span>Powered by RAG + Gemini</span>
       </footer>
